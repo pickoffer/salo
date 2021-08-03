@@ -1,0 +1,24 @@
+{
+  "name": "salo",
+  "version": "1.0.0",
+  "description": "Test project ",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "dev": "nodemon ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pickoffer/salo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pickoffer/salo/issues"
+  },
+  "homepage": "https://github.com/pickoffer/salo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
