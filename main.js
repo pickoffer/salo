@@ -8,27 +8,19 @@ function inputValue() {
 function outputValue(key, firstValue, secondValue) {
     switch (key) {
         case 1:
-
             console.log(firstValue + secondValue);
             break;
-
         case 2:
-
-                console.log(firstValue - secondValue);
-                break;
-
+            console.log(firstValue - secondValue);
+            break;
         case 3:
-
             console.log(firstValue / secondValue);
             break;
-
         case 4:
-
-                console.log(firstValue * secondValue);
-                break; 
-
-        default:console.log('invalid action');
-
+            console.log(firstValue * secondValue);
+            break; 
+        default:
+            console.log('invalid action');
             break;
     }
 }
